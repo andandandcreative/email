@@ -29,18 +29,26 @@
           font-weight: 100;
           font-style: normal;
       }
+      
+      a { color: #000000; text-decoration: none; }-
+      a:hover { color: #FB2963; }
 
 			.logo { padding: 50px 50px 30px 50px; }
 			
 			.text { font-family: "museo_sans",Helvetica,Arial,sans-serif; font-size: 21px; line-height: 30px; margin: 0 50px 10px 50px; }
+			.type-big { font-size: 36px; line-height: 45px; text-transform: uppercase; }
+			.title { font-weight: bold; }
+			.orange { color: #E69248; }
 
 			.border-b     { border-bottom: 1px solid #cccccc; }
 			.border-r     { border-right: 1px solid #cccccc; }
   		.pad-t        { padding-top: 30px; }
+  		.pad-t-big    { padding-top: 40px; }
 			.pad-b        { padding-bottom: 30px; }
 			.pad-b-big    { padding-bottom: 50px; }
 			.pad-l        { padding-left: 50px; }
 			.pad-r        { padding-right: 50px; }
+			.no-mar-l     { margin-left: 0; }
 			
 		</style>
 	</head>
@@ -59,31 +67,31 @@
   			</tr>
   			<tr>
     		  <td class="border-b pad-t pad-b">
-      		  <div class="text type-big ">Thank you for Applying</div>
+      		  <div class="text title type-big">Thank you for Applying</div>
       		  <div class="text">This is your confirmation email.<br />You have successfully applied to 3 jobs.</div>
             <div class="text">You will receive an email about the job soon.</div>
     		  </td>
   			</tr>
   			<tr>
     		  <td class="border-b pad-t pad-b">
-      		  <div class="text title ">Personal details</div>
+      		  <div class="text title">Personal details</div>
       		  <div class="text" id="name">Joe Blogs</div>
-      		  <div class="text" id="email">joeblogs@gmail.com</div>
-      		  <div class="text" id="phone">01404 812396</div>
+      		  <div class="text" id="email"><a href="mailto:joeblogs@gmail.com">joeblogs@gmail.com</div>
+      		  <div class="text" id="phone"><a href="tel:01404812396">01404 812396</a></div>
       		  <div class="text" id="message">I would be an excellent candidate because Olorionsequi quodipsus nos re, sandipis qui occusant accuptiatio. Et porehenis mossita tintur re nonemos maio occus, et vellam ataest qui corem dem. Ant. Hic testi tet latenimi, seque prem estotatur si nestemo diciis re, si duntibu santorr umquam, saeperum dolorrunt laboritae prescieni tectet arum este modic tet fugit, corem la que odit ma voluptae. Nate venimos dia doluptu sciati coneturem nihillu ptaquo exereperiani sed </div>
     		  </td>
   			</tr>
   			<tr>
   				<td class="border-b pad-t pad-b pad-l pad-r">
-    				<div class="text">Uploaded files</div>
+    				<div class="text no-mar-l">Uploaded files</div>
   			
   					<table border="0" width="100%" cellpadding="0" cellspacing="0">
   						<tr>
-  							<td width="121">
+  							<td width="91">
     							<img src="imgs/cv-pdf.png" width="71" height="91" alt="File Icon" />
   							</td>
   							<td>
-    							<div class="text"><a href="#">my-cv-file.pdf</a></div>
+    							<div class="text no-mar-l"><a href="#">my-cv-file.pdf</a></div>
   							</td>
   						</tr>
   					</table>
@@ -95,23 +103,23 @@
   
   					<table border="0" width="100%" cellpadding="0" cellspacing="0">
   						<tr>
-  							<td align="center" valign="top" rowspan="4">
+  							<td class="pad-t-big" align="center" valign="top" rowspan="4" width="44">
     							<img src="imgs/email-icons-admin.png" width="24" height="24" alt="Division Icon" />
   							</td>
   						</tr>
   						<tr>
   							<td>
-    							<div class="text title orange"><a href="#">my-cv-file.pdf</a></div>
+    							<div class="text title orange no-mar-l">Full Time | London | £20,000</div>
   							</td>
   						</tr>
   						<tr>
   							<td>
-    							<div class="text title"><a href="#">my-cv-file.pdf</a></div>
+    							<div class="text title no-mar-l"><a href="%link-to-job-ad%">Senior Architect / Associate job, London</a></div>
   							</td>
   						</tr>
   						<tr>
   							<td>
-    							<div class="text small"><a href="#">my-cv-file.pdf</a></div>
+    							<div class="text small no-mar-l">Officitessit enderciist, offictur? Qui aci dolentur aliquid ellescia verum volupta sectus consect atestiantia nos ini nis ullor sin cum aliquam id evenis qui officiendam et, ut voluptatem. Omnim et mo in parumqui.</div>
   							</td>
   						</tr>
   						<tr>
